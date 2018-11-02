@@ -1,38 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Task list</title>
 	<link rel="stylesheet" type="text/css" href="museum.css">
 	<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
 </head>
 <body>
-<h1>What we still need:</h1>
-<ul>
-  <li>
-  A Building
-  <p>We need a building for the museum. Etc Etc.</p>
-  </li>
-  <li>Bulding Inspection</li>
-  <li>Funding</li>
-</ul>
+	<table class="translatepages">
+		<tr>
+			<th>What we still need:</th>
+			<th>Lo que todavía necesitamos:</th>
+		</tr>
+		<tr>
+			<td>
+				<ul>
+					<li>
+					  A Building
+					  <p>We need a building for the museum. Etc Etc.</p>
+					</li>
+					<li>Building Inspection</li>
+					<li>Funding</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+				  	<li>
+					  A Building
+					  <p>We need a building for the museum. Etc Etc.</p>
+				  	</li>
+				  	<li>Bulding Inspection</li>
+				  	<li>Funding</li>
+				</ul>
+			</td>
+		</tr>
+	</table>
 
-<h2>Want to help?</h2>
-<p>Let us know if you have any recommendations for these! Every little help goes a long way!</p>
-<p>Type of assistance:</p>
+
+<!-- <img style="width: 60%" src="https://blog.sdltrados.com/wp-content/uploads/2016/08/9-ways-to-get-help-and-support-for-sdl-trados-studio.png"> -->
+
 <div>
-	<input type="radio" id="rec1"
-	     name="recommend" value="building">
-	    <label for="rec1">Building recommendations</label>
+	<h2>Want to help?</h2>
+	<p>Let us know if you have any recommendations for these! Every little help goes a long way!</p>
+	<p>Type of assistance:</p>
+	<div>
+		<input type="radio" id="rec1"
+		     name="recommend" value="building">
+		    <label for="rec1">Building recommendations</label>
 
-	<input type="radio" id="rec2"
-	     name="recommend" value="inspection">
-	    <label for="rec2">Building inspection or recommendations for building inpsector</label>
+		<input type="radio" id="rec2"
+		     name="recommend" value="inspection">
+		    <label for="rec2">Building inspection or recommendations for building inpsector</label>
 
-	<input type="radio" id="rec3"
-	     name="recommend" value="funding">
-	    <label for="rec3">Funding</label>
+		<input type="radio" id="rec3"
+		     name="recommend" value="funding">
+		    <label for="rec3">Funding</label>
+	</div>
+	<p>Your recommendation:</p>
+	<input type="text" name="recs">
 </div>
-<p>Your recommendation:</p>
-<input type="text" name="recs">
 </body>
 </html>
