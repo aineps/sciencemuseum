@@ -1,0 +1,72 @@
+/*
+#2c3531
+#116466
+#d9b08c
+#ffcb9a
+#d1e8e2
+*/
+
+body {
+	background-color: #d1e8e2;
+	color: #2c3531;
+	font-family: 'Audiowide', cursive;
+}
+
+table {
+  table-layout: fixed;
+  float: left;
+}
+
+th {
+	font-size: 35px;
+	text-align: left;
+	padding: 10px;
+}
+
+a {
+	color: #d9b08c;
+}
+
+.tabletitle {
+	font-family: 'Audiowide', cursive;
+	text-align: center;
+	font-size: 30px;
+	color: #116466;
+}
+
+#sidebar {
+	width: 10%;
+	border: 10px solid #116466;
+	background-color:  #2c3531;
+	text-align: center;
+}
+
+.translate {
+	width: 80%;
+	/*border: 1px solid black;*/
+	margin: 0 5% 5%;	
+}
+
+
+.translate .table th, td {
+	box-sizing: border-box;
+	padding: 5px;
+	/*border: 1px solid black;*/
+	text-align: left;
+	font-family: 'Marvel', sans-serif;
+	font-weight: 900;
+}
+
+.post {
+  margin-bottom: 20px;
+}
+
+.date {
+  color: #3498db;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+.thumbnail {
+	float: left;
+}
